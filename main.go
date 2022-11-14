@@ -81,7 +81,7 @@ func positionToRequest(dataset []string, currentRefPosition uint, conf config.Co
 	if finalPosition < 0 {
 		finalPosition = 0
 	}
-	if finalPosition > uint(len(dataset)) {
+	if finalPosition >= uint(len(dataset)) {
 		return dataset[len(dataset)-1]
 	}
 
