@@ -1,1 +1,1 @@
-# simple--s3-tester
+# simple-s3-tester
